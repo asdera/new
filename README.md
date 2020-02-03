@@ -2,7 +2,7 @@
 
 My Personal Website!
 
-[Visit the old site](https://asdera.github.io/original).
+[Visit the old site](https://asdera.github.io/).
 
 <!-- ## To Run
 
