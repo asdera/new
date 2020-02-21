@@ -136,11 +136,14 @@ export default class Section extends Component {
     const colour = this.state.dark ? "colour-dark" : "colour-light";
     const colour1 = !this.state.dark ? "colour-dark" : "colour-light";
     var projs = Projects[this.props.id];
+    var projsDisplay;
     const showLess = 3;
 
     if (projs) {
-      if (!this.state.more) {
-        projs = projs.slice(0, showLess);
+      if (!this.state.more && projs.length > showLess + 3) {
+        projsDisplay = projs.slice(0, showLess);
+      } else {
+        projsDisplay = projs;
       }
     } 
 
@@ -169,7 +172,7 @@ export default class Section extends Component {
               <Navbar dark = {this.state.dark}/>
             </div>
             <div className="section-half section-content">
-              {projs && (projs.map((project, index) => {
+              {projsDisplay && (projsDisplay.map((project, index) => {
                 return (
                   <div className="project" key={index} id={project.id} onClick={() => this.viewLink(project.to)}>
                     <div className={"project-fade project-" + colour1}>
@@ -185,9 +188,13 @@ export default class Section extends Component {
                   </div>
                 )
               }))}
-              {!this.state.more && (
+              {(!this.state.more && projs.length > showLess + 3) && (
                 <div className="project" key={showLess} id="more" onClick={this.viewMore}>
-                  <div className={"project-fade project-" + colour1}>
+                  <div className="project-split" id={projs[showLess].id}></div>
+                  <div className="project-split" id={projs[showLess+1].id}></div>
+                  <div className="project-split" id={projs[showLess+2].id}></div>
+                  <div className="project-split" id={projs[showLess+3].id}></div>
+                  <div className={"project-extra project-fade project-" + colour1}>
                     <div className="project-inner">
                       <div className={colour1 + " project-title"}>
                         <h1>View More .  .  .</h1>

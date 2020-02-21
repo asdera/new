@@ -68,7 +68,19 @@
 }
 
 
+/* APPS */
 
+#candid {
+    background-image: url(../images/apps/candid.png);
+}
+
+#asu {
+    background-image: url(../images/apps/asu.png);
+}
+
+#pendulum {
+    background-image: url(../images/apps/pendulum.png);
+}
 
 
 
@@ -86,6 +98,16 @@
     background-position: center;
 }
 
+.project-split {
+    height: 25vh;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .project:hover .project-colour-dark {
     transition: 0.2s;
     background-color: rgba(0, 0, 0, 0.75);
@@ -93,7 +115,7 @@
 
 .project:hover .project-colour-light {
     transition: 0.2s;
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .project-colour-dark {
@@ -103,13 +125,18 @@
 
 .project-colour-light {
     transition: 0.1s;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.25);
 }
 
 .project-fade {
     /* position: absolute; */
     width: 100%;
     height: 100%;
+}
+
+.project-extra {
+    opacity: 90%;
+    z-index: 100;
 }
 
 .project-inner {
