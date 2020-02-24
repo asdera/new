@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7d7bf7768fc03f0cc555d267be875681",
+    "revision": "e2b941eaa65cd8f0f1a280c003db7d29",
     "url": "/new/index.html"
   },
   {
-    "revision": "17f5b52dff72725a713f",
-    "url": "/new/static/css/main.dc900cda.chunk.css"
+    "revision": "89d21ada7e67fd0a417c",
+    "url": "/new/static/css/main.9f6e281a.chunk.css"
   },
   {
     "revision": "b8041598593e71c37794",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/new/static/js/2.22fb1674.chunk.js.LICENSE"
   },
   {
-    "revision": "17f5b52dff72725a713f",
+    "revision": "89d21ada7e67fd0a417c",
     "url": "/new/static/js/main.768b5e15.chunk.js"
   },
   {
@@ -76,8 +76,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/new/static/media/fourier.4a850535.png"
   },
   {
+    "revision": "85f9c7c0f0cc80a2b18924049c530003",
+    "url": "/new/static/media/fractal.85f9c7c0.png"
+  },
+  {
     "revision": "f438dcd027e0299706dbd4cc59ada26a",
     "url": "/new/static/media/gary.f438dcd0.png"
+  },
+  {
+    "revision": "319d0cd00f4f5b30d8c266ea072dbdff",
+    "url": "/new/static/media/github.319d0cd0.png"
   },
   {
     "revision": "66ea3c1c925c80ba487bf393edd5e537",
@@ -90,6 +98,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "50c9a1062cf025adf5cd1acc146229cc",
     "url": "/new/static/media/hexagon.50c9a106.png"
+  },
+  {
+    "revision": "b370e039fe4e994e1bcf835782678d23",
+    "url": "/new/static/media/instagram.b370e039.png"
   },
   {
     "revision": "6ca1f6d940f0e8808be0ccb0ec699eed",
