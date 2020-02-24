@@ -123,13 +123,31 @@
 }
 
 #fractal {
-    background-image: url(../images/apps/neural.png);
+    background-image: url(../images/apps/fractal.png);
 }
 
 #glossary {
     background-image: url(../images/apps/glossary.png);
 }
 
+
+/* Contact */
+
+#github {
+    background-image: url(../images/contact/github.png);
+}
+
+#facebook {
+    background-image: url(../images/contact/facebook.png);
+}
+
+#instagram {
+    background-image: url(../images/contact/instagram.png);
+}
+
+#linkedin {
+    background-image: url(../images/contact/linkedin.png);
+}
 
 
 
