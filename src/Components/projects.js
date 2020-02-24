@@ -132,7 +132,7 @@ const helper = {
         },
         {
             "to": "https://github.com/asdera/Fun-Fact-API",
-            "id": "fun",
+            "id": "facts",
             "name": "Fun Fact API",
             "description": "A REST API to get any fun fact based on a specific keyword or term! Super easy to access!"
         },
@@ -168,19 +168,19 @@ const helper = {
         },
         {
             "to": "https://asdera.github.io/TextImage/",
-            "id": "itt",
+            "id": "text",
             "name": "Image to Text",
             "description": "Upload an image and watch it transform into a selectable piece of text! Send goofy images to your friends in Text format! Size adjustable."
         },
         {
             "to": "https://asdera.github.io/YourPersonalFractal/",
-            "id": "neural",
+            "id": "fractal",
             "name": "Your Personal Fractal",
             "description": "Creates a mesmerizing fractal for every single different person. Hashes your information into a unique and beautiful picture."
         },
         {
             "to": "https://asdera.github.io/Glossary/",
-            "id": "neural",
+            "id": "glossary",
             "name": "Glossary Creator",
             "description": "Build your own glossary right now. It's simple and free! Utilizes the Merriam-Webster Dictionary API."
         }
