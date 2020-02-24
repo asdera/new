@@ -81,7 +81,7 @@ const helper = {
             "description": "Fortnite in 2D. Includes building, chests and a ton of weapons. Play locally with friends. Uses the same controls as regular Fortnite."
         },
         {
-            "to": "",
+            "to": "https://asdera.github.io/Bottle-Flipper/",
             "id": "flipper",
             "name": "Bottle Flipper",
             "description": "A fun sandbox game. Flip water bottles and compete with your friends. Select areas of the screen to create obstacles."
