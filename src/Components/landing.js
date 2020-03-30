@@ -3,7 +3,7 @@ import "./landing.css";
 import Sketch from 'react-p5'
 import Asu from "./Asu/asu";
 import Navbar from "./Navbar";
-const landingMe = require('../images/landingMeDark.png');
+const landingMe = require('../images/landingMe.png');
 const landingMeDark = require('../images/landingMeDark.png');
 const generaFont = require('../fonts/Genera-AltLight.ttf');
 
@@ -17,8 +17,8 @@ export default class Landing extends Component {
 
 
     preload = p5 => {
-        this.mountains = p5.loadImage(this.dark ? landingMeDark : landingMe);
-        console.log(this.mountains)
+        this.mountains = p5.loadImage(landingMeDark);
+        this.mountains2 = p5.loadImage(landingMe);
         this.genera = p5.loadFont(generaFont);
     }
 
@@ -83,9 +83,9 @@ export default class Landing extends Component {
 
         p5.push();
         p5.blendMode(p5.BLEND);
-        p5.background(this.dark ? 0 : 255);
+        p5.background(this.dark ? 0 : 255, 100);
         var mount = 0.15;
-        p5.image(this.mountains, p5.width/2, p5.max(p5.height*(1-mount), p5.height*(0.5-mount)+p5.mouseY), p5.height*mount*12, p5.height*mount*2);
+        p5.image(this.dark ? this.mountains : this.mountains2, p5.width/2, p5.max(p5.height*(1-mount), p5.height*(0.5-mount)+p5.mouseY), p5.height*mount*12, p5.height*mount*2);
 
         // p5.background(this.dark ? 0 : 255, 100);
 

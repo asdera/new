@@ -3,7 +3,7 @@ const dummyText = {
     about: "I'm Andrew, I do a bunch of things. ",
     games: "Tapping into curiosity and creativity. ",
     apps: "Bring my crazy ideas to life. ",
-    contact: "Feel free to say hello. I won't bite! ",
+    contact: "Feel free to say hello! ",
 }
 
 export default dummyText;
