@@ -83,7 +83,7 @@ export default class Landing extends Component {
 
         p5.push();
         p5.blendMode(p5.BLEND);
-        p5.background(this.dark ? 0 : 255, 100);
+        p5.background(this.dark ? 0 : 255);
         var mount = 0.15;
         p5.image(this.dark ? this.mountains : this.mountains2, p5.width/2, p5.max(p5.height*(1-mount), p5.height*(0.5-mount)+p5.mouseY), p5.height*mount*12, p5.height*mount*2);
 
