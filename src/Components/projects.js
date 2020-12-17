@@ -187,7 +187,7 @@ const helper = {
     ],
     "contact": [
         {
-            "to": "",
+            "to": "https://github.com/asdera",
             "id": "github",
             "name": "Github",
             "description": "Check out my other repos on Github."
