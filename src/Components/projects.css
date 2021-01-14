@@ -4,6 +4,10 @@
 
 /* ABOUT */
 
+#uwaterloo {
+    background-image: url(../images/about/uwaterloo.png);
+}
+
 #shad {
     background-image: url(../images/about/shad.png);
 }
@@ -69,6 +73,10 @@
 
 
 /* APPS */
+
+#pathfinder {
+    background-image: url(../images/apps/pathfinder.png);
+}
 
 #candid {
     background-image: url(../images/apps/candid.png);

@@ -1,6 +1,12 @@
 const helper = {
     "about": [
         {
+            "to": "https://uwaterloo.ca/future-students/programs/computer-science",
+            "id": "uwaterloo",
+            "name": "UWaterloo",
+            "description": "Currently studying Honours Computer Science (BCS), Co-op at the University of Waterloo."
+        },
+        {
             "to": "https://uwaterloo.ca/institute-for-quantum-computing/programs/qcsys",
             "id": "qcsys",
             "name": "QCSYS",
@@ -94,6 +100,12 @@ const helper = {
         }
     ],
     "apps": [
+        {
+            "to": "https://asdera.github.io/AsuPathFinder/",
+            "id": "pathfinder",
+            "name": "Asu Pathfinder",
+            "description": "A visual sandbox that explores multiple pathfinding and maze-generation algorithms. Has an emphasis on high quality animations and visual design."
+        },
         {
             "to": "https://devpost.com/software/candid",
             "id": "candid",
